@@ -1,0 +1,2 @@
+- Thư viện jquery tối ưu load ảnh. bình thường ảnh sẽ được load hết khi load trang. sử dụng lazy thì chỉ có những ảnh trong màn hình mới load. kéo đến phần nào thì ảnh mói được laod.
+- supper fast
