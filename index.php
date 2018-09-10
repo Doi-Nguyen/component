@@ -12,12 +12,23 @@
     <script type="text/javascript" src="assets/js/component.js"></script>
 </head>
 <body>
+<div class="main">
 
-<div class="component-ripple">
-    <div class="cell">
-        <button data-ripple class="mad-button-raised mad-ico-left bg-primary"><i class="material-icons">person</i>User settings</button>
-        <div data-ripple="rgba(0,0,0, 0.3)">Lorem ipsum</div>
+    <!--    =================================================== Effect Ripple ====================================================-->
+    <div class="component-effect-ripple">
+        <div class="cell">
+            <button data-ripple class="mad-button-raised mad-ico-left bg-primary"><i class="material-icons">person</i>User settings</button>
+            <div data-ripple="rgba(0,0,0, 0.3)">Lorem ipsum</div>
+        </div>
     </div>
+
+    <!--    =================================================== Effect alternate ====================================================-->
+    <div class="component-effect-alternate">
+        <a href="#" style="display: block;position: relative">
+            <img src="" alt="">
+        </a>
+    </div>
+
 </div>
 
 </body>
