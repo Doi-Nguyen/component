@@ -1,4 +1,4 @@
-@keyframes nbScaleOut {
+@keyframes mcScaleOut {
   0% {
     transform: scale(0.8);
     visibility: visible;
@@ -11,6 +11,6 @@
   }
 }
 
-.nbScaleOut {
-  animation-name: nbScaleOut;
+.mcScaleOut {
+  animation-name: mcScaleOut;
 }

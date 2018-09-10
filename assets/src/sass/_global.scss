@@ -1,0 +1,15 @@
+*{
+  box-sizing: border-box;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.component-effect {
+  display: flex;
+  flex-wrap: wrap;
+  .effect-item {
+    padding: 30px 15px;
+  }
+}

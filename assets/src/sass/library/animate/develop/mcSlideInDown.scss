@@ -1,4 +1,4 @@
-@keyframes nbSlideInDown {
+@keyframes mcSlideInDown {
   0% {
     transform: translate3d(0, 0%, 0);
     opacity: 1;
@@ -11,6 +11,6 @@
   }
 }
 
-.nbSlideInDown {
-  animation-name: nbSlideInDown;
+.mcSlideInDown {
+  animation-name: mcSlideInDown;
 }

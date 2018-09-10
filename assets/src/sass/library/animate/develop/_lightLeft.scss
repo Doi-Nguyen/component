@@ -1,0 +1,13 @@
+@keyframes mcLightLeft {
+  from {
+    left: -100%;
+  }
+
+  to {
+    left: 100%;
+  }
+}
+
+.mcLightLeft {
+  animation-name: mcLightLeft;
+}

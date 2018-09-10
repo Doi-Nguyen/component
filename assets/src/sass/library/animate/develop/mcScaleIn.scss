@@ -1,4 +1,4 @@
-@keyframes nbScaleIn {
+@keyframes mcScaleIn {
   0% {
     transform: scale(1);
     visibility: visible;
@@ -11,6 +11,6 @@
   }
 }
 
-.nbScaleIn {
-  animation-name: nbScaleIn;
+.mcScaleIn {
+  animation-name: mcScaleIn;
 }

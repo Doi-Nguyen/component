@@ -14,21 +14,44 @@
 <body>
 <div class="main">
 
-    <!--    =================================================== Effect Ripple ====================================================-->
-    <div class="component-effect-ripple">
+    <!--    =================================================== Component Ripple ====================================================-->
+    <div class="component-ripple">
         <div class="cell">
             <button data-ripple class="mad-button-raised mad-ico-left bg-primary"><i class="material-icons">person</i>User settings</button>
             <div data-ripple="rgba(0,0,0, 0.3)">Lorem ipsum</div>
         </div>
     </div>
 
-    <!--    =================================================== Effect alternate ====================================================-->
-    <div class="component-effect-alternate">
-        <a href="#" style="display: block;position: relative">
-            <img src="" alt="">
-        </a>
-    </div>
 
+    <!--    =================================================== Effect ====================================================-->
+    <div class="component-effect">
+        <!--    =================================================== Effect alternate ====================================================-->
+        <div class="effect-item text-center">
+            <a href="#" class="mc-effect mc-effect-alternate">
+                <img src="assets/image/effect-1.png" alt="Logo">
+            </a>
+        </div>
+
+        <!--    =================================================== Effect 1 ====================================================-->
+        <div class="effect-item text-center">
+            <a href="#" class="mc-effect mc-effect1">
+                <img src="assets/image/prints.jpg" alt="Logo">
+            </a>
+        </div>
+
+        <!--    =================================================== Effect 2 ====================================================-->
+        <div class="effect-item text-center">
+            <div class="mc-effect mc-effect2">
+                <img src="assets/image/prints-square.jpg" alt="Logo">
+                <div class="mc-effect-desc">
+                    <a href="#" class="mc-effect-link">
+                        <h4 class="mc-effect-title">Solid Color Layer</h4>
+                        <span class="mc-effect-btn">Design Now</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 </body>

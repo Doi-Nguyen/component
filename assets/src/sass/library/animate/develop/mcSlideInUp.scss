@@ -1,4 +1,4 @@
-@keyframes nbSlideInUp {
+@keyframes mcSlideInUp {
   0% {
     transform: translate3d(0, 100%, 0);
     visibility: visible;
@@ -11,6 +11,6 @@
   }
 }
 
-.nbSlideInUp {
-  animation-name: nbSlideInUp;
+.mcSlideInUp {
+  animation-name: mcSlideInUp;
 }

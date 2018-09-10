@@ -1,1 +1,14 @@
-@import "component/effect/ripple";
+@import "global";
+
+//=================Library Animate=====================
+@import "library/animate/index";
+
+//=================Effect (@required Library Animate)=====================
+@import "effect/effect";
+@import "effect/alternate";
+@import "effect/effect1";
+@import "effect/effect2";
+
+
+//=================Component=====================
+@import "component/ripple";
